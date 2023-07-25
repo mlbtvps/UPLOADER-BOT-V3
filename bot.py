@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 import os
 from plugins.config import Config
-
+from dotenv import load_dotenv
 from pyrogram import Client as Ntbot
 from pyrogram import filters
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
